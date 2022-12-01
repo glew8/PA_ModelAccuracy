@@ -21,14 +21,18 @@ INSTALL the following packages:
 
 use install.packages command in R unless otherwise noted
 
-tidyverse (confirm installation of ggplot2, readr, tibble, purrr, dplyr, tidyr)
-cowplot
-zeallot
-ggsunburst: see below
+1. tidyverse (confirm installation of ggplot2, readr, tibble, purrr, dplyr, tidyr)
+2. cowplot
+3. zeallot
+4. ggsunburst: see below
 
 ggsunburst install (This is what worked for me):
 install.packages(c("devtools", "reticulate", "reshape2", "rappdirs", "backports"))
+
 library(devtools)
+
 install_github("didacs/ggsunburst")
+
 library(reticulate)
+
 py_install("six")
