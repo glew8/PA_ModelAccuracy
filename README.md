@@ -27,6 +27,7 @@ use install.packages command in R unless otherwise noted
 4. ggsunburst: see below
 
 ggsunburst install (This is what worked for me):
+
 install.packages(c("devtools", "reticulate", "reshape2", "rappdirs", "backports"))
 
 library(devtools)
