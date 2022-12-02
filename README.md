@@ -28,12 +28,12 @@ use install.packages command in R unless otherwise noted
 
 ggsunburst install (This is what worked for me):
 
-install.packages(c("devtools", "reticulate", "reshape2", "rappdirs", "backports"))
+   install.packages(c("devtools", "reticulate", "reshape2", "rappdirs", "backports"))
 
-library(devtools)
+   library(devtools)
 
-install_github("didacs/ggsunburst")
+   install_github("didacs/ggsunburst")
 
-library(reticulate)
+   library(reticulate)
 
-py_install("six")
+   py_install("six")
