@@ -36,4 +36,6 @@ ggsunburst install (This is what worked for me):
 >
 >library(reticulate)
 >
+>install.miniconda()
+>
 >py_install("six")
