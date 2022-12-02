@@ -6,14 +6,17 @@ AS2.R:
    1. Calculates AS2 or zscores for all samples in a model and plots sunburst graph
    2. Calculates AS2 and zscores after subsampling to keep input numbers consistent across different conditions
    3. Calculates zscores (penalties) for each individual replicate of a model
+   
+AS2_heatmap.R: plots AS2 scores in heat map (ex. to graph color for unknown genes in sunburst plots)
 
-SunburstMetadata.csv: example metadata file. Can add additional columns to analyze data in different combinations.
-
-SunburstCategories.txt: example input to make sunburst graphs using TIGRFAM categories
-
-AnnotationTIGRFAM.txt: example input to make sunburst graphs using TIGRFAM categories
-
-PA_individual_input_all.txt: example text file to calculate zscores for a set of individual replicates
+Input files
+   1. SunburstMetadata.csv: example metadata file. Can add additional columns to analyze data in different combinations.
+   2. SunburstCategories.txt: example input to make sunburst graphs using TIGRFAM categories
+   3. SunburstCategories_withUnknowns.txt: example input to make sunburst graphs using TIGRFAM categories, includes genes of unknown function
+   4. AnnotationTIGRFAM.txt: example input to make sunburst graphs using TIGRFAM categories
+   5. AnnotationTIGRFAM_withUnknowns.txt: example input to make sunburst graphs using TIGRFAM categories, includes genes of unknown function
+   6. PA_individual_input_all.txt: example text file to calculate zscores for a set of individual replicates
+   7. AS2_heatmap.csv: example input to make heatmap
 
 ################################
 
