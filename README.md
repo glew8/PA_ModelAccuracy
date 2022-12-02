@@ -24,7 +24,8 @@ use install.packages command in R unless otherwise noted
 1. tidyverse (confirm installation of ggplot2, readr, tibble, purrr, dplyr, tidyr)
 2. cowplot
 3. zeallot
-4. ggsunburst: see below
+4. scico
+5. ggsunburst: see below
 
 ggsunburst install (This is what worked for me):
 
