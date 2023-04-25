@@ -7,8 +7,8 @@ AS2.R:
    2. Calculates AS2 and zscores after subsampling to keep input numbers consistent across different conditions
    3. Calculates zscores (penalties) for each individual replicate of a model
    
-AS2_heatmap.R: plots AS2 scores in heat map (ex. to graph color for unknown genes in sunburst plots)
-
+Resampling_AS2.R: calculates AS2 across human samples to set the AS2 baseline of a microbe in situ. Approach repeatedly calculates AS2, using the majority of human transcriptomes as the gold-standard human datasets, and using a few random human transcriptomes as the comparison model to see how similar the datasets are to each other.
+   
 Input files
    1. SunburstMetadata.csv: example metadata file. Can add additional columns to analyze data in different combinations.
    2. SunburstCategories.txt: example input to make sunburst graphs using TIGRFAM categories
